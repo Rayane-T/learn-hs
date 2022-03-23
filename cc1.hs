@@ -12,7 +12,7 @@ base2 n =
        let reste = n ‘mod‘ 2 in
           base2 (n ‘div‘ 2) ++ show reste
           
--- Écrire la fonction base b n qui étant donné un nombre entier b (2 ≤ b ≤ 10) et un nombre entier
+-- Écrire la fonction base b n qui étant donné un nombre entier b (2 <= b <= 10) et un nombre entier
 -- n renvoie l’écriture de n en base b sous la forme d’une chaîne de caractères. Exemple : base 3 77 renvoie
 -- "2212", base 2 77 renvoie "1001101". Dans le cas où b < 2 ou bien b > 10, alors la fonction doit renvoyer
 -- une erreur.          
